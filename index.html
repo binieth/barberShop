@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="style.css">
     <title>Tsega Barber </title>
 </head>
@@ -21,10 +21,10 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a  href="#" class="nav-link" > Home</a></li>
-                <li><a  href="#" class="nav-link" > Contact</a></li>
-                <li><a  href="#" class="nav-link" > About</a></li>
-                <li><a  href="#" class="nav-link" > Status</a></li>
+                <li><a href="#" class="nav-link"> Home</a></li>
+                <li><a href="#" class="nav-link"> Contact</a></li>
+                <li><a href="#" class="nav-link"> About</a></li>
+                <li><a href="#" class="nav-link"> Status</a></li>
             </ul>
         </nav>
         <div class="appt">
@@ -36,19 +36,50 @@
         <section class="presentation">
             <div class="introduction">
                 <div class="intro-text">
-                    <h1>Hair cut like noother</h1>
+                    <h1>Hair cut like No other</h1>
                     <p>The best hair cut in columbus. Come and check us out to learn and reserve your spot.</p>
                 </div>
                 <div class="cta">
                     <button class="cta-selection">Choose Your Style</button>
                     <button class="cta-pick">Set up your schedual</button>
                 </div>
-                <div class="cover">
-                    <img class="main-img" src="./images/barberChairsInLine.jpg" alt="haircut style image">
-                </div>
+            </div>
+            <div class="cover">
+                <img src="./images/barberShop_HairCut.jpg" alt="haircut style image">
             </div>
         </section>
+
+        <div class="contact-us">
+            <form id="contact" action="" method="post">
+                <h4>Whether it’s over coffee or the phone, let’s chat. Then we’ll figure out how we can help you.</h4>
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+
+        </div>
+
+
     </main>
+    <footer>
+        <h4>Tsega Barber shop</h4>
+        <h3>&copf; Designed by Biniyam</h3>
+    </footer>
 
 </body>
 
